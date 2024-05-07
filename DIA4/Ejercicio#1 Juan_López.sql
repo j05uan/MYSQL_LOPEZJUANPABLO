@@ -76,6 +76,19 @@ VALUES
 (10, 'Kabul', 10);
 
 -- Insertar datos eb la tabla de IdiomaPais
+INSERT INTO  idiomaPais (idiomaId, paisId,esOficial)
+VALUES
+(1,1,1),
+(6,1,1),
+(3,3,1),
+(2,2,1),
+(4,4,1),
+(5,5,1),
+(7,7,1),
+(8,6,1),
+(9,8,1),
+(10,10,1);
+
 show tables;
 
 --Desarrollado por Juan Pablo López Amaya C.C: 1.005.***.***
