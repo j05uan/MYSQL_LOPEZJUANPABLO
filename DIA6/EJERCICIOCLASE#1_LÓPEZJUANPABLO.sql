@@ -144,3 +144,28 @@ CREATE TABLE estudiante_Curso(
 	FOREIGN KEY (id_Estudiante) REFERENCES estudiante(id_Estudiante),
 	FOREIGN KEY (id_Curso) REFERENCES curso (id_Curso)
 );
+
+
+show tables;
+
+INSERT INTO estudiante values
+	('101', 'Juan Pablo López Amaya'),
+	('102', 'Ana Maria Suarez Perez'),
+	('103', 'Roman Felipe Sanchez Diaz'),
+	('104', 'Saul Gomez Hernandez');
+
+INSERT INTO curso values
+	('Fisica','201','Sr. Camilo Suarez'),
+	('Naturales','202','Sr. Hernan Hernandez'),
+	('Sociales','203','Sr. Samuel Sanchez'),
+	('Fisica','204','Sr.Carlos López');
+
+INSERT INTO estudiante_Curso values
+	('101','201'),
+	('101','203'),
+	('103','202'),
+	('101','202'),
+	('103','201'),
+	('102','204'),
+	('104','203');
+
